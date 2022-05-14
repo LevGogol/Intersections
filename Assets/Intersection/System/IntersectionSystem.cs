@@ -31,7 +31,7 @@ namespace Intersection
             _activeIntersectors.Add(intersector);
         }
 
-        private void Update()
+        private void FixedUpdate()
         {
             XY(_activeIntersectors, _boxes);
             XY(_activeIntersectors, _spheres);
